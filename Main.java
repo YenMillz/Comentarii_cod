@@ -1,12 +1,11 @@
 // days until deadline
 int d;
-// if the student is at least 18 years of age
-if (student.Age> = 18)
+
+if (student.Age >= 18)
 {
     // send meeting invitation to the student
     notificationService.SendMessageTo(student, meetingInvitation);
 }
-// if the student is younger than 18 years
 else 
 {
     // sends a meeting invitation to the student's legal guardian
